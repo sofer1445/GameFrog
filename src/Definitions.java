@@ -6,6 +6,7 @@ public class Definitions extends JPanel {
     private int y ;
     private int width ;
     private int height ;
+//    private Frog frog;
 
     public Definitions(int x , int y , int width , int height){
         this.y = y ;
@@ -20,26 +21,7 @@ public class Definitions extends JPanel {
 
     }
 
-    public void moveUp (){
-        this.y--;
-    }
-    public void moveDown (){
-        this.y++;
-    }
-    public void moveRight (){
-        this.x++;
-    }
-    public void moveLeft (){
-        this.x--;
-    }
 
-    public int getX() {
-        return x;
-    }
-
-    public void setX(int x) {
-        this.x = x;
-    }
 
     public int getY() {
         return y;

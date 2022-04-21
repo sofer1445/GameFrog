@@ -13,8 +13,8 @@ public class Main extends  JFrame {
     }
     public Main(){
       GameScene gameScene = new GameScene(0 , 0 , Final.WINDOW_WIDTH , Final.WINDOW_HEIGHT);
-      AnObstacle anObstacle = new AnObstacle();
-        this.add(anObstacle);
+//      AnObstacle anObstacle = new AnObstacle();
+//        this.add(anObstacle);
         this.add(gameScene);
         this.setResizable(false);
         this.setLayout(null);
